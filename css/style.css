@@ -1,9 +1,5 @@
-html{
+html {
     background-color: #ffffff;
-}
-
-body {
-
 }
 
 h2 {
@@ -12,12 +8,12 @@ h2 {
     float: top;
 }
 
-ul{
+ul {
     list-style-type: none;
     margin-left: inline;
 }
 
-li{
+li {
     display: inline;
     padding: 5px;
     background: #2c698d;
