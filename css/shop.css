@@ -1,0 +1,15 @@
+h1 {
+    text-shadow:5px 5px 5px #FF0000;
+}
+
+hr {
+    border:none;
+    background-color:#ccc;
+    color:#ccc;
+    height:2px;
+}
+
+body {
+    background-color:lightblue;
+    color:white;
+}
