@@ -2,16 +2,35 @@ html {
     
 }
 body {
+    text-align: center;
     font-family: Arial, sans-serif;
-    background-color: lightgray);
+    background-color: lightgray;
+    font-size: 20px;
 }
 h1{
-    color: dodgerblue;
+    color: #3b3355;
+    text-align: left;
+    font-size: 45px;
 }
 .header_image {
-    
     background-image: url(/images/Main_DigitalMarketing.jpg);
     background-repeat: no-repeat;
+    background: cover;
+    position: relative;
+    height: 500px;
+    background-position: center;
+
+}
+.header_quote {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: #fefcfd;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 4px 4px 6px black;
+    
 }
 ul {
     list-style-type: none;
@@ -25,12 +44,22 @@ li {
     display: inline-block;
     margin: 0 10px;
     padding-right: 10px;
-    border-right: 1px solid dodgerblue;
+    border-right: 1px solid;
     font-size: 20px;
     font-weight: bold;
 }
-.header_quote {
-    text-shadow: 4px 4px 6px black;
-    color: white;
-    padding: 50px 20px;
+h3{
+    color: #5d5d81;
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: 2px 2px 6px gray;
+}
+p{
+    color: #fefcfd;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px gray;
+}
+article{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
