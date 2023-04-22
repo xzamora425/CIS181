@@ -1,3 +1,6 @@
+html {
+    
+}
 body {
     font-family: Arial, sans-serif;
     background-color: lightgray);
@@ -5,7 +8,7 @@ body {
 h1{
     color: dodgerblue;
 }
-h2 {
+.header_image {
     
     background-image: url(/images/Main_DigitalMarketing.jpg);
     background-repeat: no-repeat;
@@ -26,7 +29,7 @@ li {
     font-size: 20px;
     font-weight: bold;
 }
-.quote {
+.header_quote {
     text-shadow: 4px 4px 6px black;
     color: white;
     padding: 50px 20px;
