@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background-color:#000505;
 }
 
 ul {
@@ -22,7 +23,8 @@ li {
 .container {
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    color:white;
 }
 
 img {
