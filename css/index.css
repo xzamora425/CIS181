@@ -5,17 +5,13 @@ body {
     font-size: 20px;
     padding-right: 20px grey;
 }
-h1{
-    color: #fefcfd;
-    text-align: left;
-    font-size: 45px;
-}
 span{
     color: #3b3355;
 }
 * {
     margin: 0;
     padding-right: 20px;
+    padding-bottom: 15px;
 }
 
 .icon {
@@ -24,7 +20,7 @@ span{
     float: left;
 }
 .logo {
-    color: #3b3355;
+    color: #bfcde0;
     font-size: 40px;
     font-family: Arial;
     padding-left: 35px;
@@ -54,10 +50,28 @@ ul li a {
     color: #fefcfd;
     font-family: Arial;
     font-weight: bold;
-    transition: 0.4s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 ul li a:hover {
     color: #3b3355;
+}
+.content {
+    background-image: url(../images/Main_DigitalMarketing.jpg);
+    background-repeat: no-repeat;
+    background: cover;
+    position: relative;
+    height: 500px;
+    background-position: right;
+}
+.quote {
+    position: absolute;
+    top: 30%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    color: #fefcfd;
+    font-size: 1.75em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px lightgrey;
 }
 
 h3{
