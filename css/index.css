@@ -3,7 +3,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #000505;
     font-size: 20px;
-    padding-right: 20px grey;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 span{
     color: #3b3355;
@@ -12,6 +13,9 @@ span{
     margin: 0;
     padding-right: 20px;
     padding-bottom: 15px;
+}
+.img-main {
+    width: 100%;
 }
 
 .icon {
@@ -55,23 +59,15 @@ ul li a {
 ul li a:hover {
     color: #3b3355;
 }
-.content {
-    background-image: url(../images/Main_DigitalMarketing.jpg);
-    background-repeat: no-repeat;
-    background: cover;
-    position: relative;
-    height: 500px;
-    background-position: right;
-}
 .quote {
     position: absolute;
     top: 30%;
-    left: 24%;
+    left: 35%;
     transform: translate(-50%, -50%);
     color: #fefcfd;
     font-size: 1.75em;
     font-weight: bold;
-    text-shadow: 2px 2px 4px lightgrey;
+    text-shadow: 2px 2px 4px black;
 }
 
 h3{
@@ -85,7 +81,29 @@ p{
     font-weight: bold;
     
 }
-article{
-    padding-top: 100px;
+.article-left{
+    border: solid #3b3355 5px;
+    padding-top: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 1.5em;
+    max-width: 850px;
+    float: left;
+    
+}
+.article-right{
+    border: solid #3b3355 5px;
+    padding-top: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 1.5em;
+    max-width: 850px;
+    float: right;
+}
+strong {
+    color: #5d5d81;
+}
+footer {
     padding-bottom: 100px;
+    background-color: grey;
 }
