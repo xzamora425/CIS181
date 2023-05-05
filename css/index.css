@@ -2,9 +2,9 @@ body {
     text-align: center;
     font-family: Arial, sans-serif;
     background-color: #000505;
-    font-size: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 1.25em;
+    margin-left: 1.25em;
+    margin-right: 1.25;
 }
 span{
     color: #3b3355;
@@ -25,7 +25,7 @@ span{
 }
 .logo {
     color: #bfcde0;
-    font-size: 40px;
+    font-size: 2.25em;
     font-family: Arial;
     padding-left: 35px;
     float: left;
@@ -34,7 +34,7 @@ span{
 .menu {
     width: 400px;
     float: left;
-    height: 70px;
+    height: 75px;
     align-items: center;
 }
 ul {
@@ -45,8 +45,8 @@ ul {
 }
 ul li {
     list-style: none;
-    margin-left: 62px;
-    margin-top: 30px;
+    margin-left: 65px;
+    margin-top: 35px;
     font-size: 18px;
 }
 ul li a {
@@ -61,8 +61,8 @@ ul li a:hover {
 }
 .quote {
     position: absolute;
-    top: 30%;
-    left: 35%;
+    top: 75%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: #fefcfd;
     font-size: 1.75em;
@@ -102,8 +102,4 @@ p{
 }
 strong {
     color: #5d5d81;
-}
-footer {
-    padding-bottom: 100px;
-    background-color: grey;
 }
