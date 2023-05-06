@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: Arial, sans-serif;
-    background-color: #000505;
+    background-color: #1a1a1a;
     font-size: 1.25em;
     margin-left: 1.25em;
     margin-right: 1.25;
@@ -14,10 +14,6 @@ span{
     padding-right: 20px;
     padding-bottom: 15px;
 }
-.img-main {
-    width: 100%;
-}
-
 .icon {
     width: 200px;
     height: 75px;
@@ -59,47 +55,53 @@ ul li a {
 ul li a:hover {
     color: #3b3355;
 }
+.img {
+    position: cover;
+    opacity: 50%;
+    background-color: ;
+}
 .quote {
     position: absolute;
     top: 75%;
-    left: 50%;
+    left: 45%;
     transform: translate(-50%, -50%);
     color: #fefcfd;
     font-size: 1.75em;
     font-weight: bold;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px grey;
+    max-width: fit-content;
 }
-
 h3{
     color: #5d5d81;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 40px;
+    position: absolute;
+    padding-left: 200px;
     
 }
 p{
     color: #fefcfd;
     font-weight: bold;
-    
+    font-size: 1.25em;   
 }
-.article-left{
+article{
     border: solid #3b3355 5px;
     padding-top: 1.5em;
     padding-left: 1.5em;
     padding-right: 1.5em;
     padding-bottom: 1.5em;
     max-width: 850px;
-    float: left;
-    
+    text-align: center;
 }
-.article-right{
-    border: solid #3b3355 5px;
-    padding-top: 1.5em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    padding-bottom: 1.5em;
-    max-width: 850px;
-    float: right;
-}
-strong {
+h4 {
     color: #5d5d81;
 }
+article p {
+    font-size: 18px;
+}
+#text {
+    margin-bottom: 30px;
+    padding-left: 500px;
+}
+html body {
+    max-width: 100%;
